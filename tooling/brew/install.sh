@@ -34,4 +34,4 @@ brew doctor
 
 # install bundle and bundles
 brew tap homebrew/bundle
-brew bundle --file $HOME/.dotfiles/brew/Brewfile
+brew bundle --file $HOME/.dotfiles/tooling/brew/Brewfile
