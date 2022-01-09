@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"path": "../.dotfiles"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../.dotfiles2"
+		},
+		{
+			"path": "../__dotfiles/installers"
+		}
+	],
+	"settings": {}
+}

@@ -1,0 +1,94 @@
+# Taps
+tap 'homebrew/cask'
+tap 'homebrew/cask-fonts'
+tap 'homebrew/cask-versions'
+tap 'homebrew/bundle'
+tap 'nicoverbruggen/homebrew-cask'
+
+# Binaries
+brew 'bash' # Latest Bash version
+brew 'coreutils' # Those that come with macOS are outdated
+brew 'ffmpeg'
+brew 'git'
+brew 'gnupg'
+brew 'grep'
+brew 'mackup'
+brew 'mas' # Mac App Store manager
+brew 'pkg-config' # https://github.com/driesvints/dotfiles/issues/20
+brew 'svn' # Needed to install fonts
+brew 'z' # jump to xxx folder
+brew 'terraform'
+brew 'kubectx' # + kubens
+brew 'terraform'
+
+# Development
+brew 'php@7.4'
+brew 'composer'
+brew 'imagemagick'
+brew 'go'
+brew 'nvm'
+
+# Apps
+cask '1password'
+cask 'alfred'
+cask 'angry-ip-scanner'
+cask 'bettertouchtool'
+cask 'cyberduck'
+cask 'caffeine'
+cask 'discord'
+cask 'docker'
+cask 'favro'
+cask 'fork'
+cask 'google-chrome'
+cask 'imageoptim'
+cask 'iterm2'
+cask 'itsycal'
+cask 'keystore-explorer'
+cask 'mysqlworkbench'
+cask 'phpstorm'
+cask 'slack'
+cask 'tableplus'
+cask 'the-unarchiver'
+cask 'tinkerwell'
+cask 'visual-studio-code'
+cask 'vlc'
+cask 'zoom'
+
+# Quicklook
+cask 'qlmarkdown'
+cask 'quicklook-json'
+cask 'qlcolorcode'
+cask 'qlimagesize'
+
+# Fonts
+cask 'font-lato'
+cask 'font-open-sans'
+cask 'font-roboto'
+cask 'font-source-code-pro-for-powerline'
+cask 'font-source-code-pro'
+cask 'font-source-sans-pro'
+cask 'font-source-serif-pro'
+cask 'font-inconsolata-for-powerline'
+cask 'font-inconsolata-g-for-powerline'
+cask 'font-inconsolata-dz-for-powerline'
+cask 'font-roboto-mono'
+cask 'font-roboto-mono-for-powerline'
+cask 'font-hack'
+
+# SDKs, Clouds, etc.
+cask 'google-cloud-sdk'
+
+
+# Mac App Store
+
+mas 'Microsoft Word', id: 462054704
+mas 'Microsoft Excel', id: 462058435
+mas 'Microsoft PowerPoint', id: 462062816
+mas 'Microsoft Remote Desktop', id: 1295203466
+mas 'Microsoft Outlook', id: 985367838
+mas 'Bear', id: 1091189122
+mas 'Microsoft To Do', id: 1274495053
+mas 'Sequel Ace', id: 1518036000
+mas 'SystemPal', id: 453164367
+mas 'Mactracker', id: 430255202
+mas 'Trello', id: 1278508951
