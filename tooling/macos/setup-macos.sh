@@ -930,6 +930,16 @@ bot "Messages"
 # open /Applications/iTerm.app
 
 ###############################################################################
+bot "Keyboard Scheme"
+###############################################################################
+
+running "Copying 'No Dead Keys Schema'"
+sudo copy -R "$HOME/.dotfiles/macos/bundles/German No Deadkeys.bundle" "/Library/Keyboard Layouts/"
+ok
+bot "You need to change the keyboard schema manually :("
+
+
+###############################################################################
 # Kill affected applications                                                  #
 ###############################################################################
 bot "OK. Note that some of these changes require a logout/restart to take effect. Killing affected applications (so they can reboot)...."
