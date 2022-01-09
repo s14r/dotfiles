@@ -12,4 +12,6 @@ They did an awesome job! :)
 Ensure to run `mackup backup` on your current Mac.
 
 Setup the new one by creating a user and run 
-`bash -c "$(curl -fsSL https://raw.githubusercontent.com/s14r/dotfiles/main/run.sh)"`
+```bash
+bash -c "$(curl -fsSL https://raw.githubusercontent.com/s14r/dotfiles/main/run.sh)"
+```
