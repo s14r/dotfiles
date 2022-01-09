@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -e
 
-source $HOME/lib/sh-echo.sh
+source $HOME/.dotfiles/lib/output.sh
 
 ################################################################
 bot "ensuring build/install tools are available"
