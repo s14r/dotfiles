@@ -20,17 +20,12 @@ if [[ $? != 0 ]]; then
 else
   ok
   bot "Homebrew"
-  read -r -p "run brew update && upgrade? [y|N] " response
-  if [[ $response =~ (y|yes|Y) ]]; then
-    action "updating homebrew..."
-    brew update
-    ok "homebrew updated"
-    action "upgrading brew packages..."
-    brew upgrade
-    ok "brews upgraded"
-  else
-    ok "skipped brew package upgrades."
-  fi
+  action "updating homebrew..."
+  brew update
+  ok "homebrew updated"
+  action "upgrading brew packages..."
+  brew upgrade
+  ok "brews upgraded"
 fi
 
 # Just to avoid a potential bug
@@ -39,4 +34,4 @@ brew doctor
 
 # install bundle and bundles
 brew tap homebrew/bundle
-brew bundle --file $HOME/.dotfiles/Brewfile
+brew bundle --file $HOME/.dotfiles/brew/Brewfile
