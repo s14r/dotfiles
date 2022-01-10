@@ -13,13 +13,13 @@ export ZSH="$HOME/.oh-my-zsh"
 source $ZSH/oh-my-zsh.sh
 
 # antigen
-source $DOTFILES/antigen/_antigen.zsh
+source $DOTFILES/tooling/zsh/_antigen.zsh
 
 # golang
-source $DOTFILES/zsh/_golang.zsh
+source $DOTFILES/tooling/zsh/_go.zsh
 
 # aliases
-source $DOTFILES/zsh/_aliases.zsh
+source $DOTFILES/tooling/zsh/_aliases.zsh
 
 # GCloud installed by brew
 source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
