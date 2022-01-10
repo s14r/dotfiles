@@ -31,18 +31,11 @@ fi
 $HOME/.dotfiles/tooling/brew/install.sh
 
 # zsh
-$HOME/.dotfiles/zsh/install.sh
+$HOME/.dotfiles/tooling/zsh/install.sh
 
 # Removes .zshrc from $HOME (if it exists) and symlinks the .zshrc file from the .dotfiles
 rm -rf $HOME/.zshrc
-ln -s $HOME/.dotfiles/.zshrc $HOME/.zshrc
-
-# Update Homebrew recipes
-brew update
-
-# Install all appstore apps and binaries etc. with bundle (See Brewfile)
-brew tap homebrew/bundle
-brew bundle --file $DOTFILES/brew/Brewfile
+ln -s $HOME/.dotfiles/tooling/zsh/.zshrc $HOME/.zshrc
 
 running "cleanup homebrew"
 brew cleanup --force > /dev/null 2>&1
@@ -56,10 +49,10 @@ ln -s $HOME/.dotfiles/mackup/.mackup.cfg $HOME/.mackup.cfg
 mackup restore
 
 # Do system configuration
-source $HOME/macos/setup-macos.sh
+source $HOME/.dotfiles/tooling/macos/setup-macos.sh
 
 # Set default apps for file types
-source $HOME/macos/setup-file-default.sh
+source $HOME/.dotfiles/tooling/macos/setup-file-default.sh
 
 # Set macOS preferences - we will run this last because this will reload the shell
-source $HOME/macos/defaults.sh
+source $HOME/.dotfiles/tooling/macos/defaults.sh
