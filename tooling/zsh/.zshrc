@@ -4,7 +4,7 @@
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Dotfiles
-export $DOTFILES="$HOME/.dotfiles"
+export DOTFILES="$HOME/.dotfiles"
 
 # Path to your oh-my-zsh installation.
 export ZSH="$HOME/.oh-my-zsh"
