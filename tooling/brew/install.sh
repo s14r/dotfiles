@@ -36,3 +36,6 @@ brew doctor
 # install bundle and bundles
 brew tap homebrew/bundle
 brew bundle --file $HOME/.dotfiles/tooling/brew/Brewfile
+
+running "cleanup homebrew"
+brew cleanup --force

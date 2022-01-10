@@ -37,9 +37,6 @@ $HOME/.dotfiles/tooling/zsh/install.sh
 rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/tooling/zsh/.zshrc $HOME/.zshrc
 
-running "cleanup homebrew"
-brew cleanup --force
-
 # Symlink the Mackup config file to the home directory
 ln -s $HOME/.dotfiles/tooling/mackup/.mackup.cfg $HOME/.mackup.cfg
 
@@ -48,3 +45,6 @@ mackup restore
 
 # Set default apps for file types
 source $HOME/.dotfiles/tooling/macos/setup-file-default.sh
+
+# Setup system config
+source $HOME/.dotfiles/tooling/macos/setup-macos.sh
