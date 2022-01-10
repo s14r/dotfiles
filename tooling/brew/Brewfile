@@ -74,6 +74,7 @@ cask 'font-inconsolata-dz-for-powerline'
 cask 'font-roboto-mono'
 cask 'font-roboto-mono-for-powerline'
 cask 'font-hack'
+cask 'microsoft-office'
 
 # SDKs, Clouds, etc.
 cask 'google-cloud-sdk'
@@ -81,11 +82,7 @@ cask 'google-cloud-sdk'
 
 # Mac App Store
 
-mas 'Microsoft Word', id: 462054704
-mas 'Microsoft Excel', id: 462058435
-mas 'Microsoft PowerPoint', id: 462062816
 mas 'Microsoft Remote Desktop', id: 1295203466
-mas 'Microsoft Outlook', id: 985367838
 mas 'Bear', id: 1091189122
 mas 'Microsoft To Do', id: 1274495053
 mas 'Sequel Ace', id: 1518036000
