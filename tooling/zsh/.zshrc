@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
 # brew
-eval "$(homebrew/bin/brew shellenv)"
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Dotfiles
 export $DOTFILES="$HOME/.dotfiles"
