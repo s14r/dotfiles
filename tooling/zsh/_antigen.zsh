@@ -14,7 +14,7 @@ if [[ -r "${XDG_CACHE_HOME:-$HOME/.cache}/p10k-instant-prompt-${(%):-%n}.zsh" ]]
 fi
 
 antigen bundle git
-antigen bundle osx
+antigen bundle macos
 antigen bundle z
 antigen bundle docker-compose
 antigen bundle docker
