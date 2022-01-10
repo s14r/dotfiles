@@ -43,7 +43,7 @@ rm -f -r /Library/Caches/Homebrew/* > /dev/null 2>&1
 ok
 
 # Symlink the Mackup config file to the home directory
-ln -s $HOME/.dotfiles/mackup/.mackup.cfg $HOME/.mackup.cfg
+ln -s $HOME/.dotfiles/tooling/mackup/.mackup.cfg $HOME/.mackup.cfg
 
 # use mackup to get our config
 mackup restore
