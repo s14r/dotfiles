@@ -1,5 +1,5 @@
 #!/usr/bin/env bash
-source $HOME/lib/output.sh
+source $HOME/.dotfiles/lib/output.sh
 
 # install via brew
 bot "installing zsh"
