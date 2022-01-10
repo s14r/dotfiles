@@ -38,6 +38,7 @@ rm -rf $HOME/.zshrc
 ln -s $HOME/.dotfiles/tooling/zsh/.zshrc $HOME/.zshrc
 
 # Symlink the Mackup config file to the home directory
+rm -rf $HOME/.mackup.cfg
 ln -s $HOME/.dotfiles/tooling/mackup/.mackup.cfg $HOME/.mackup.cfg
 
 # use mackup to get our config
