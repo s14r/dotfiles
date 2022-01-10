@@ -15,7 +15,6 @@ if [[ $? != 0 ]]; then
     exit 2
   fi
   
-  eval "$(/opt/homebrew/bin/brew shellenv)"
   brew analytics off
 else
   ok
@@ -27,6 +26,8 @@ else
   brew upgrade
   ok "brews upgraded"
 fi
+
+eval "$(/opt/homebrew/bin/brew shellenv)"
 
 # Just to avoid a potential bug
 mkdir -p ~/Library/Caches/Homebrew/Formula
