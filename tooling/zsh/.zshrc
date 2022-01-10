@@ -20,8 +20,3 @@ source $DOTFILES/tooling/zsh/_go.zsh
 
 # aliases
 source $DOTFILES/tooling/zsh/_aliases.zsh
-
-# GCloud installed by brew
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
-source "/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
-export CLOUDSDK_HOME="/usr/local/Caskroom/google-cloud-sdk/latest/google-cloud-sdk"
