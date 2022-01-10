@@ -48,11 +48,5 @@ ln -s $HOME/.dotfiles/tooling/mackup/.mackup.cfg $HOME/.mackup.cfg
 # use mackup to get our config
 mackup restore
 
-# Do system configuration
-source $HOME/.dotfiles/tooling/macos/setup-macos.sh
-
 # Set default apps for file types
 source $HOME/.dotfiles/tooling/macos/setup-file-default.sh
-
-# Set macOS preferences - we will run this last because this will reload the shell
-source $HOME/.dotfiles/tooling/macos/defaults.sh

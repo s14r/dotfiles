@@ -929,14 +929,6 @@ bot "Messages"
 
 # open /Applications/iTerm.app
 
-###############################################################################
-bot "Keyboard Scheme"
-###############################################################################
-
-running "Copying 'No Dead Keys Schema'"
-sudo copy -R "$HOME/.dotfiles/macos/bundles/German No Deadkeys.bundle" "/Library/Keyboard Layouts/"
-ok
-bot "You need to change the keyboard schema manually :("
 
 
 ###############################################################################

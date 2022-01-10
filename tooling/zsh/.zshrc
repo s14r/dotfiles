@@ -1,7 +1,7 @@
 #!/usr/bin/env zsh
 
-# Using MacOS ZSH, changing Cache folder
-export ZSH_CACHE_DIR=~/.zsh-cache
+# brew
+eval "$(homebrew/bin/brew shellenv)"
 
 # Dotfiles
 export $DOTFILES="$HOME/.dotfiles"

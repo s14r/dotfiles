@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+source $HOME/.dotfiles/lib/output.sh
+
 bot "Setting up VSCode as default editor"
 
 brew install duti
