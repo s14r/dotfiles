@@ -1,10 +1,8 @@
-#!/usr/bin/env zsh
-
 # Load Antigen
 source $HOME/antigen.zsh
 
 # Autocompleter
-antigen bundle Aloxaf/fzf-tab
+# antigen bundle Aloxaf/fzf-tab
 
 # Enable Powerlevel10k instant prompt. Should stay close to the top of ~/.zshrc.
 # Initialization code that may require console input (password prompts, [y/n]

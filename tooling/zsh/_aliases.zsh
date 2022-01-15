@@ -10,7 +10,7 @@ alias gccl="gcloud config configurations list"
 
 # DOCKER
 alias dk="docker"
-alias dc="docker-compose"
+alias dc="docker compose"
 alias deti="docker exec -it"
 dkstop() { docker stop $(docker ps -aq); }
 
