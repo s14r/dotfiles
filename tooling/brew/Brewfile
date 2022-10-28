@@ -4,6 +4,8 @@ tap 'homebrew/cask-fonts'
 tap 'homebrew/cask-versions'
 tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
+tap 'yoheimuta/protolint'
+tap 'c-bata/kube-prompt'
 
 # Binaries
 brew 'bash' # Latest Bash version
@@ -20,6 +22,9 @@ brew 'z' # jump to xxx folder
 brew 'terraform'
 brew 'kubectx' # + kubens
 brew 'terraform'
+brew 'protolint'
+brew 'kube-prompt'
+brew 'pyenv'
 
 # Development
 brew 'php@7.4'
@@ -53,6 +58,7 @@ cask 'tinkerwell'
 cask 'visual-studio-code'
 cask 'vlc'
 cask 'zoom'
+cask 'eul'
 
 # Quicklook
 cask 'qlmarkdown'

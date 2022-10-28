@@ -23,5 +23,18 @@ source $DOTFILES/tooling/zsh/_antigen.zsh
 # golang
 source $DOTFILES/tooling/zsh/_go.zsh
 
+# nvm
+source $DOTFILES/tooling/zsh/_nvm.zsh
+
 # aliases
 source $DOTFILES/tooling/zsh/_aliases.zsh
+
+# GCloud
+source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+
+# pyenv
+eval "$(pyenv init -)"
+eval "$(pyenv init --path)"
+
+# Change Docker Host
+# export DOCKER_HOST=ssh://sebastian@devbox

@@ -178,9 +178,9 @@ sudo defaults write /Library/Preferences/SystemConfiguration/com.apple.smb.serve
 # # See https://github.com/mathiasbynens/dotfiles/issues/237
 # echo "0x08000100:0" > ~/.CFUserTextEncoding;ok
 
-running "Stop iTunes from responding to the keyboard media keys"
-launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null;
-ok
+#running "Stop iTunes from responding to the keyboard media keys"
+#launchctl unload -w /System/Library/LaunchAgents/com.apple.rcd.plist 2> /dev/null;
+#ok
 
 running "Show icons for hard drives, servers, and removable media on the desktop"
 # defaults write com.apple.finder ShowExternalHardDrivesOnDesktop -bool true
