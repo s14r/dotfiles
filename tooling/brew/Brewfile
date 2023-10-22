@@ -21,10 +21,19 @@ brew 'svn' # Needed to install fonts
 brew 'z' # jump to xxx folder
 brew 'terraform'
 brew 'kubectx' # + kubens
+brew 'linkerd'
 brew 'terraform'
 brew 'protolint'
 brew 'kube-prompt'
 brew 'pyenv'
+brew 'fzf'
+
+# curl replacement
+brew 'httpie'
+
+# http load testing with graph
+brew 'plow'
+
 
 # Development
 brew 'php@7.4'
@@ -32,6 +41,7 @@ brew 'composer'
 brew 'imagemagick'
 brew 'go'
 brew 'nvm'
+brew  'ohueter/tap/autokbisw'
 
 # Apps
 cask '1password'

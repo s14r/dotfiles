@@ -30,7 +30,8 @@ source $DOTFILES/tooling/zsh/_nvm.zsh
 source $DOTFILES/tooling/zsh/_aliases.zsh
 
 # GCloud
-source /opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
+source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh.inc"
 
 # pyenv
 eval "$(pyenv init -)"
