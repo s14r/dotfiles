@@ -37,5 +37,8 @@ source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh
 eval "$(pyenv init -)"
 eval "$(pyenv init --path)"
 
-# Change Docker Host
-# export DOCKER_HOST=ssh://sebastian@devbox
+# Scaleway CLI autocomplete initialization.
+eval "$(scw autocomplete script shell=zsh)"
+
+# credentials (ignored from git)
+source $DOTFILES/tooling/zsh/_credentials.zsh

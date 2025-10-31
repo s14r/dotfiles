@@ -6,7 +6,6 @@
 
 # Icon must end with two \r
 Icon
-zsh/_credentials.zsh
 
 # Thumbnails
 ._*
@@ -29,3 +28,4 @@ Temporary Items
 
 ## stuff
 tooling/brew/Brewfile.lock.json
+tooling/zsh/_credentials.zsh

@@ -6,6 +6,7 @@ tap 'homebrew/bundle'
 tap 'nicoverbruggen/homebrew-cask'
 tap 'yoheimuta/protolint'
 tap 'c-bata/kube-prompt'
+tap 'johanhaleby/kubetail'
 
 # Binaries
 brew 'bash' # Latest Bash version
@@ -27,13 +28,17 @@ brew 'protolint'
 brew 'kube-prompt'
 brew 'pyenv'
 brew 'fzf'
+brew 'kubetail'
+brew 'scw' #scaleway cli
+
+# podman
+brew 'podman'
 
 # curl replacement
 brew 'httpie'
 
 # http load testing with graph
 brew 'plow'
-
 
 # Development
 brew 'php@7.4'
@@ -94,7 +99,6 @@ cask 'microsoft-office'
 
 # SDKs, Clouds, etc.
 cask 'google-cloud-sdk'
-
 
 # Mac App Store
 

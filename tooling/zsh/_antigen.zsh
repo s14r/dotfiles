@@ -21,6 +21,9 @@ antigen bundle jsontools
 antigen bundle terraform
 antigen bundle common-aliases
 
+# switch virtualenvs automatically
+# antigen bundle "MichaelAquilina/zsh-autoswitch-virtualenv"
+
 # GCLOUD
 CLOUDSDK_HOME=$(brew --prefix)/Caskroom/google-cloud-sdk/latest/google-cloud-sdk
 antigen bundle gcloud
