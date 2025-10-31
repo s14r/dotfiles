@@ -23,6 +23,9 @@ source $DOTFILES/tooling/zsh/_antigen.zsh
 # golang
 source $DOTFILES/tooling/zsh/_go.zsh
 
+# PHP
+source $DOTFILES/tooling/zsh/_php.zsh
+
 # nvm
 source $DOTFILES/tooling/zsh/_nvm.zsh
 
